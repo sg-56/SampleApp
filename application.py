@@ -1,6 +1,9 @@
 from flask import Flask,render_template
 import uvicorn 
-app = Flask(__name__)
+application = Flask(__name__)
+
+
+app = application
 
 @app.route('/')
 def Greet():
